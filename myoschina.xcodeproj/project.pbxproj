@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE660BF416DE4B8000C68218 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE660BF316DE4B8000C68218 /* UIKit.framework */; };
+		CE660BF616DE4B8000C68218 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE660BF516DE4B8000C68218 /* Foundation.framework */; };
+		CE660BF816DE4B8000C68218 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE660BF716DE4B8000C68218 /* CoreGraphics.framework */; };
+		CE660BFE16DE4B8000C68218 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE660BFC16DE4B8000C68218 /* InfoPlist.strings */; };
+		CE660C0016DE4B8000C68218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE660BFF16DE4B8000C68218 /* main.m */; };
+		CE660C0416DE4B8000C68218 /* MOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE660C0316DE4B8000C68218 /* MOAppDelegate.m */; };
+		CE660C0616DE4B8000C68218 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0516DE4B8000C68218 /* Default.png */; };
+		CE660C0816DE4B8000C68218 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0716DE4B8000C68218 /* Default@2x.png */; };
+		CE660C0A16DE4B8000C68218 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0916DE4B8000C68218 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE660BF016DE4B8000C68218 /* myoschina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myoschina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE660BF316DE4B8000C68218 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE660BF516DE4B8000C68218 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE660BF716DE4B8000C68218 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE660BFB16DE4B8000C68218 /* myoschina-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myoschina-Info.plist"; sourceTree = "<group>"; };
+		CE660BFD16DE4B8000C68218 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE660BFF16DE4B8000C68218 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE660C0116DE4B8000C68218 /* myoschina-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myoschina-Prefix.pch"; sourceTree = "<group>"; };
+		CE660C0216DE4B8000C68218 /* MOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOAppDelegate.h; sourceTree = "<group>"; };
+		CE660C0316DE4B8000C68218 /* MOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOAppDelegate.m; sourceTree = "<group>"; };
+		CE660C0516DE4B8000C68218 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE660C0716DE4B8000C68218 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE660C0916DE4B8000C68218 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE660BED16DE4B8000C68218 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE660BF416DE4B8000C68218 /* UIKit.framework in Frameworks */,
+				CE660BF616DE4B8000C68218 /* Foundation.framework in Frameworks */,
+				CE660BF816DE4B8000C68218 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE660BE716DE4B7F00C68218 = {
+			isa = PBXGroup;
+			children = (
+				CE660BF916DE4B8000C68218 /* myoschina */,
+				CE660BF216DE4B8000C68218 /* Frameworks */,
+				CE660BF116DE4B8000C68218 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE660BF116DE4B8000C68218 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE660BF016DE4B8000C68218 /* myoschina.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE660BF216DE4B8000C68218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE660BF316DE4B8000C68218 /* UIKit.framework */,
+				CE660BF516DE4B8000C68218 /* Foundation.framework */,
+				CE660BF716DE4B8000C68218 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE660BF916DE4B8000C68218 /* myoschina */ = {
+			isa = PBXGroup;
+			children = (
+				CE660C0216DE4B8000C68218 /* MOAppDelegate.h */,
+				CE660C0316DE4B8000C68218 /* MOAppDelegate.m */,
+				CE660BFA16DE4B8000C68218 /* Supporting Files */,
+			);
+			path = myoschina;
+			sourceTree = "<group>";
+		};
+		CE660BFA16DE4B8000C68218 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE660BFB16DE4B8000C68218 /* myoschina-Info.plist */,
+				CE660BFC16DE4B8000C68218 /* InfoPlist.strings */,
+				CE660BFF16DE4B8000C68218 /* main.m */,
+				CE660C0116DE4B8000C68218 /* myoschina-Prefix.pch */,
+				CE660C0516DE4B8000C68218 /* Default.png */,
+				CE660C0716DE4B8000C68218 /* Default@2x.png */,
+				CE660C0916DE4B8000C68218 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE660BEF16DE4B8000C68218 /* myoschina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE660C0D16DE4B8000C68218 /* Build configuration list for PBXNativeTarget "myoschina" */;
+			buildPhases = (
+				CE660BEC16DE4B8000C68218 /* Sources */,
+				CE660BED16DE4B8000C68218 /* Frameworks */,
+				CE660BEE16DE4B8000C68218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myoschina;
+			productName = myoschina;
+			productReference = CE660BF016DE4B8000C68218 /* myoschina.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE660BE816DE4B7F00C68218 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MO;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = iso1030;
+			};
+			buildConfigurationList = CE660BEB16DE4B7F00C68218 /* Build configuration list for PBXProject "myoschina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE660BE716DE4B7F00C68218;
+			productRefGroup = CE660BF116DE4B8000C68218 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE660BEF16DE4B8000C68218 /* myoschina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE660BEE16DE4B8000C68218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE660BFE16DE4B8000C68218 /* InfoPlist.strings in Resources */,
+				CE660C0616DE4B8000C68218 /* Default.png in Resources */,
+				CE660C0816DE4B8000C68218 /* Default@2x.png in Resources */,
+				CE660C0A16DE4B8000C68218 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE660BEC16DE4B8000C68218 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE660C0016DE4B8000C68218 /* main.m in Sources */,
+				CE660C0416DE4B8000C68218 /* MOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE660BFC16DE4B8000C68218 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE660BFD16DE4B8000C68218 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE660C0B16DE4B8000C68218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE660C0C16DE4B8000C68218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE660C0E16DE4B8000C68218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myoschina/myoschina-Prefix.pch";
+				INFOPLIST_FILE = "myoschina/myoschina-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE660C0F16DE4B8000C68218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myoschina/myoschina-Prefix.pch";
+				INFOPLIST_FILE = "myoschina/myoschina-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE660BEB16DE4B7F00C68218 /* Build configuration list for PBXProject "myoschina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE660C0B16DE4B8000C68218 /* Debug */,
+				CE660C0C16DE4B8000C68218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE660C0D16DE4B8000C68218 /* Build configuration list for PBXNativeTarget "myoschina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE660C0E16DE4B8000C68218 /* Debug */,
+				CE660C0F16DE4B8000C68218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE660BE816DE4B7F00C68218 /* Project object */;
+}
