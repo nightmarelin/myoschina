@@ -7,12 +7,24 @@
 //
 
 #import "MOAppDelegate.h"
+#import "MOMineViewController.h"
+#import "MOMoreViewController.h"
+#import "MONewsViewController.h"
+#import "MOQaViewController.h"
+#import "MOTweetViewController.h"
+
+@interface MOAppDelegate ()
+
+@property (nonatomic, retain) UITabBarController *rootViewController;
+
+@end
 
 @implementation MOAppDelegate
 
 - (void)dealloc
 {
     [_window release];
+    [_rootViewController release];
     [super dealloc];
 }
 
@@ -20,7 +32,51 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    
+    // 我的
+    UIViewController *_mineViewController = [[[MOMineViewController alloc] init] autorelease];
+    UINavigationController *_mineNav = [[UINavigationController alloc] initWithRootViewController:_mineViewController];
+    _mineNav.tabBarItem.title = @"我的";
+    
+    // 更多
+    UIViewController *_moreViewController = [[[MOMoreViewController alloc] init] autorelease];
+    UINavigationController *_moreNav = [[UINavigationController alloc] initWithRootViewController:_moreViewController];
+    _moreNav.tabBarItem.title = @"更多";
+    
+    // 综合
+    UIViewController *_newsViewController = [[[MONewsViewController alloc] init] autorelease];
+    UINavigationController *_newsNav = [[UINavigationController alloc] initWithRootViewController:_newsViewController];
+    _newsNav.tabBarItem.title = @"综合";
+    
+    // 问答
+    UIViewController *_qaViewController = [[[MOQaViewController alloc] init] autorelease];
+    UINavigationController *_qaNav = [[UINavigationController alloc] initWithRootViewController:_qaViewController];
+    _qaNav.tabBarItem.title = @"问答";
+    
+    // 动弹
+    UIViewController *_tweetViewController = [[[MOTweetViewController alloc] init] autorelease];
+    UINavigationController *_tweetNav = [[UINavigationController alloc] initWithRootViewController:_tweetViewController];
+    _tweetNav.tabBarItem.title = @"动弹";
+    
+    _rootViewController = [[UITabBarController alloc] init];
+    _rootViewController.hidesBottomBarWhenPushed = YES;
+    _rootViewController.viewControllers = [NSArray arrayWithObjects:
+                                           _newsNav,
+                                           _qaNav,
+                                           _tweetNav,
+                                           _mineNav,
+                                           _moreNav, nil];
+    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
+    [[UITabBar appearance] setSelectionIndicatorImage:nil];
+    
+    [_mineNav release];
+    [_moreNav release];
+    [_newsNav release];
+    [_qaNav release];
+    [_tweetNav release];
+    
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = _rootViewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
