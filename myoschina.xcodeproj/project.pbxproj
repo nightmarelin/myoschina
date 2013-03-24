@@ -16,6 +16,11 @@
 		CE660C0616DE4B8000C68218 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0516DE4B8000C68218 /* Default.png */; };
 		CE660C0816DE4B8000C68218 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0716DE4B8000C68218 /* Default@2x.png */; };
 		CE660C0A16DE4B8000C68218 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0916DE4B8000C68218 /* Default-568h@2x.png */; };
+		CEE3298D16F5EBCD00CD941D /* MONewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3298C16F5EBCD00CD941D /* MONewsViewController.m */; };
+		CEE3299016F8857900CD941D /* MOQaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3298F16F8857900CD941D /* MOQaViewController.m */; };
+		CEE3299316F8859100CD941D /* MOMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3299216F8859100CD941D /* MOMineViewController.m */; };
+		CEE3299616F8859C00CD941D /* MOMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3299516F8859C00CD941D /* MOMoreViewController.m */; };
+		CEE3299916F885AB00CD941D /* MOTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3299816F885AB00CD941D /* MOTweetViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,16 @@
 		CE660C0516DE4B8000C68218 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CE660C0716DE4B8000C68218 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CE660C0916DE4B8000C68218 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CEE3298B16F5EBCD00CD941D /* MONewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONewsViewController.h; sourceTree = "<group>"; };
+		CEE3298C16F5EBCD00CD941D /* MONewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MONewsViewController.m; sourceTree = "<group>"; };
+		CEE3298E16F8857900CD941D /* MOQaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOQaViewController.h; sourceTree = "<group>"; };
+		CEE3298F16F8857900CD941D /* MOQaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOQaViewController.m; sourceTree = "<group>"; };
+		CEE3299116F8859100CD941D /* MOMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMineViewController.h; sourceTree = "<group>"; };
+		CEE3299216F8859100CD941D /* MOMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMineViewController.m; sourceTree = "<group>"; };
+		CEE3299416F8859C00CD941D /* MOMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOMoreViewController.h; sourceTree = "<group>"; };
+		CEE3299516F8859C00CD941D /* MOMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOMoreViewController.m; sourceTree = "<group>"; };
+		CEE3299716F885AB00CD941D /* MOTweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOTweetViewController.h; sourceTree = "<group>"; };
+		CEE3299816F885AB00CD941D /* MOTweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOTweetViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,7 @@
 		CE660BF916DE4B8000C68218 /* myoschina */ = {
 			isa = PBXGroup;
 			children = (
+				CE660C1016DE4F5D00C68218 /* UserInterface */,
 				CE660C0216DE4B8000C68218 /* MOAppDelegate.h */,
 				CE660C0316DE4B8000C68218 /* MOAppDelegate.m */,
 				CE660BFA16DE4B8000C68218 /* Supporting Files */,
@@ -97,6 +113,63 @@
 				CE660C0916DE4B8000C68218 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE660C1016DE4F5D00C68218 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3298616F5EB6400CD941D /* mine */,
+				CEE3298716F5EB6400CD941D /* more */,
+				CEE3298816F5EB6400CD941D /* news */,
+				CEE3298916F5EB6400CD941D /* qa */,
+				CEE3298A16F5EB6400CD941D /* tweet */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		CEE3298616F5EB6400CD941D /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3299116F8859100CD941D /* MOMineViewController.h */,
+				CEE3299216F8859100CD941D /* MOMineViewController.m */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		CEE3298716F5EB6400CD941D /* more */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3299416F8859C00CD941D /* MOMoreViewController.h */,
+				CEE3299516F8859C00CD941D /* MOMoreViewController.m */,
+			);
+			path = more;
+			sourceTree = "<group>";
+		};
+		CEE3298816F5EB6400CD941D /* news */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3298B16F5EBCD00CD941D /* MONewsViewController.h */,
+				CEE3298C16F5EBCD00CD941D /* MONewsViewController.m */,
+			);
+			path = news;
+			sourceTree = "<group>";
+		};
+		CEE3298916F5EB6400CD941D /* qa */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3298E16F8857900CD941D /* MOQaViewController.h */,
+				CEE3298F16F8857900CD941D /* MOQaViewController.m */,
+			);
+			path = qa;
+			sourceTree = "<group>";
+		};
+		CEE3298A16F5EB6400CD941D /* tweet */ = {
+			isa = PBXGroup;
+			children = (
+				CEE3299716F885AB00CD941D /* MOTweetViewController.h */,
+				CEE3299816F885AB00CD941D /* MOTweetViewController.m */,
+			);
+			path = tweet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +240,11 @@
 			files = (
 				CE660C0016DE4B8000C68218 /* main.m in Sources */,
 				CE660C0416DE4B8000C68218 /* MOAppDelegate.m in Sources */,
+				CEE3298D16F5EBCD00CD941D /* MONewsViewController.m in Sources */,
+				CEE3299016F8857900CD941D /* MOQaViewController.m in Sources */,
+				CEE3299316F8859100CD941D /* MOMineViewController.m in Sources */,
+				CEE3299616F8859C00CD941D /* MOMoreViewController.m in Sources */,
+				CEE3299916F885AB00CD941D /* MOTweetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +322,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myoschina/myoschina-Prefix.pch";
 				INFOPLIST_FILE = "myoschina/myoschina-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -255,7 +335,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "myoschina/myoschina-Prefix.pch";
 				INFOPLIST_FILE = "myoschina/myoschina-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -279,6 +361,7 @@
 				CE660C0F16DE4B8000C68218 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
