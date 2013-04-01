@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EGORefreshTableHeaderView.h"
 
-@interface MONewsViewController : UITableViewController<UITableViewDataSource, UITableViewDelegate>
+@interface MONewsViewController : UITableViewController<UITableViewDataSource, UITableViewDelegate, EGORefreshTableHeaderDelegate>
 
 @end

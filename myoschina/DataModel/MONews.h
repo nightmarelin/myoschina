@@ -10,4 +10,14 @@
 
 @interface MONews : NSObject
 
+@property (nonatomic, retain) NSString *nid;
+@property (nonatomic, retain) NSString *title;
+@property (nonatomic, assign) long commentCount;
+@property (nonatomic, retain) NSString *author;
+@property (nonatomic, retain) NSString *authorid;
+@property (nonatomic, retain) NSString *pubtime;
+@property (nonatomic, retain) NSString *url;
+@property (nonatomic, assign) int type;
+@property (nonatomic, retain) NSString *authoruid2;
+
 @end
