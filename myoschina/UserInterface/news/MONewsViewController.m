@@ -10,6 +10,9 @@
 #import "ASIHTTPRequest.h"
 #import "TBXML.h"
 #import "MONews.h"
+#import "MODetailViewController.h"
+#import "MOCommentViewController.h"
+#import "MOShareViewController.h"
 
 @interface MONewsViewController ()
 
@@ -118,10 +121,26 @@
 #pragma mark - tableview delegate
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UIViewController *viewController = [[UIViewController alloc] init];
-    viewController.hidesBottomBarWhenPushed = indexPath.row % 2 == 0;
-    [self.navigationController pushViewController:viewController animated:YES];
-    [viewController release];
+    
+    MODetailViewController *detailController = [[MODetailViewController alloc] init];
+    detailController.tabBarItem.title = @"详情";
+    
+    MOCommentViewController *commentController = [[MOCommentViewController alloc] init];
+    commentController.tabBarItem.title = @"评论";
+    
+    MOShareViewController *shareController = [[MOShareViewController alloc] init];
+    shareController.tabBarItem.title = @"分享";
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers =[NSArray arrayWithObjects:detailController, commentController, shareController, nil];
+    
+    [detailController release];
+    [commentController release];
+    [shareController release];
+    
+    tabBarController.hidesBottomBarWhenPushed = indexPath.row % 2 == 0;
+    [self.navigationController pushViewController:tabBarController animated:YES];
+    [tabBarController release];
 }
 
 #pragma makr - UISCrollViewDelegate

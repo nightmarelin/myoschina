@@ -26,6 +26,9 @@
 		CE660C0616DE4B8000C68218 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0516DE4B8000C68218 /* Default.png */; };
 		CE660C0816DE4B8000C68218 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0716DE4B8000C68218 /* Default@2x.png */; };
 		CE660C0A16DE4B8000C68218 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE660C0916DE4B8000C68218 /* Default-568h@2x.png */; };
+		CE6D089417145D590016C12D /* MODetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D089317145D590016C12D /* MODetailViewController.m */; };
+		CE6D089717145D680016C12D /* MOCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D089617145D680016C12D /* MOCommentViewController.m */; };
+		CE6D089A17145D730016C12D /* MOShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D089917145D730016C12D /* MOShareViewController.m */; };
 		CEDC63BE17086B3B00B3AE6A /* TBXML+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDC63B417086B3B00B3AE6A /* TBXML+Compression.m */; };
 		CEDC63BF17086B3B00B3AE6A /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDC63B517086B3B00B3AE6A /* TBXML+HTTP.m */; };
 		CEDC63C017086B3B00B3AE6A /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDC63B617086B3B00B3AE6A /* TBXML.m */; };
@@ -75,6 +78,12 @@
 		CE660C0516DE4B8000C68218 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CE660C0716DE4B8000C68218 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CE660C0916DE4B8000C68218 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE6D089217145D590016C12D /* MODetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MODetailViewController.h; sourceTree = "<group>"; };
+		CE6D089317145D590016C12D /* MODetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MODetailViewController.m; sourceTree = "<group>"; };
+		CE6D089517145D680016C12D /* MOCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOCommentViewController.h; sourceTree = "<group>"; };
+		CE6D089617145D680016C12D /* MOCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOCommentViewController.m; sourceTree = "<group>"; };
+		CE6D089817145D730016C12D /* MOShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOShareViewController.h; sourceTree = "<group>"; };
+		CE6D089917145D730016C12D /* MOShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOShareViewController.m; sourceTree = "<group>"; };
 		CEDC63B417086B3B00B3AE6A /* TBXML+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+Compression.m"; sourceTree = "<group>"; };
 		CEDC63B517086B3B00B3AE6A /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
 		CEDC63B617086B3B00B3AE6A /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
@@ -325,6 +334,12 @@
 			children = (
 				CEE3298B16F5EBCD00CD941D /* MONewsViewController.h */,
 				CEE3298C16F5EBCD00CD941D /* MONewsViewController.m */,
+				CE6D089217145D590016C12D /* MODetailViewController.h */,
+				CE6D089317145D590016C12D /* MODetailViewController.m */,
+				CE6D089517145D680016C12D /* MOCommentViewController.h */,
+				CE6D089617145D680016C12D /* MOCommentViewController.m */,
+				CE6D089817145D730016C12D /* MOShareViewController.h */,
+				CE6D089917145D730016C12D /* MOShareViewController.m */,
 			);
 			path = news;
 			sourceTree = "<group>";
@@ -481,6 +496,9 @@
 				CEDC63C017086B3B00B3AE6A /* TBXML.m in Sources */,
 				CEDC63C41708706700B3AE6A /* MONews.m in Sources */,
 				CE615C5A1709C432000737A1 /* EGORefreshTableHeaderView.m in Sources */,
+				CE6D089417145D590016C12D /* MODetailViewController.m in Sources */,
+				CE6D089717145D680016C12D /* MOCommentViewController.m in Sources */,
+				CE6D089A17145D730016C12D /* MOShareViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

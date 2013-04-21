@@ -1,0 +1,271 @@
+Tmyoschina
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Info.plist myoschina/myoschina-Info.plist
+cProcessPCH /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch.pth myoschina/myoschina-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/main.o /Users/user/Documents/workspace/myoschina/myoschina/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/MOAppDelegate.o /Users/user/Documents/workspace/myoschina/myoschina/MOAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina normal i386
+cGenerateDSYMFile /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app.dSYM /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina
+cCpResource myoschina/Default.png DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default.png
+cCopyStringsFile /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/en.lproj/InfoPlist.strings myoschina/en.lproj/InfoPlist.strings
+cCpResource myoschina/Default@2x.png DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default@2x.png
+cCpResource myoschina/Default-568h@2x.png DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default-568h@2x.png
+cTouch /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050F4CA800000000000228FE0
+t1358219904
+s2265056
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050F4CA8C00000000003DDFA0
+t1358219916
+s4054944
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050F4CA8C00000000000015F7
+t1358219916
+s5623
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c0000000050D532860000000000000E8D
+t1356149382
+s3725
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050F4CAC80000000000AB6230
+t1358219976
+s11231792
+
+N/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
+c0000000050F4CB700000000000001B73
+t1358220144
+s7027
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch.pth
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/MOAppDelegate.o
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/myoschina.LinkFileList
+c00000000512E141D0000000000000153
+t1361974301
+s339
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app.dSYM
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default-568h@2x.png
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default.png
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default@2x.png
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Info.plist
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/PkgInfo
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina
+t2
+s0
+
+N/Users/user/Documents/workspace/myoschina/myoschina/Default-568h@2x.png
+c000000005094C3F800000000000048A2
+t1351926776
+s18594
+
+N/Users/user/Documents/workspace/myoschina/myoschina/Default.png
+c000000005094C3F8000000000000198C
+t1351926776
+s6540
+
+N/Users/user/Documents/workspace/myoschina/myoschina/Default@2x.png
+c000000005094C3F80000000000003EEB
+t1351926776
+s16107
+
+N/Users/user/Documents/workspace/myoschina/myoschina/MOAppDelegate.m
+c00000000512E140000000000000008CF
+t1361974272
+s2255
+
+N/Users/user/Documents/workspace/myoschina/myoschina/en.lproj/InfoPlist.strings
+c00000000512E1400000000000000002D
+t1361974272
+s45
+
+N/Users/user/Documents/workspace/myoschina/myoschina/main.m
+c00000000512E1400000000000000014E
+t1361974272
+s334
+
+N/Users/user/Documents/workspace/myoschina/myoschina/myoschina-Prefix.pch
+c00000000512E14000000000000000141
+t1361974272
+s321
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+Nmyoschina/myoschina-Info.plist
+c00000000512E1400000000000000048F
+t1361974272
+s1167
+
+CBuild AST from /Users/user/Documents/workspace/myoschina/myoschina/MOAppDelegate.m
+r0
+
+CBuild AST from /Users/user/Documents/workspace/myoschina/myoschina/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies041d319d4bdeb641^30ba389d4bdeb641^---0#1#0#--18"Check dependencies36"C81A63B1-F3BE-4472-A8E5-EDD378DBD2BF-
+
+CCompileC DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/MOAppDelegate.o /Users/user/Documents/workspace/myoschina/myoschina/MOAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383667101.709810
+e383667101.874505
+r1
+xCompileC
+xDerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/MOAppDelegate.o
+x/Users/user/Documents/workspace/myoschina/myoschina/MOAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/user/Documents/workspace/myoschina/myoschina/MOAppDelegate.m46cfb59d4bdeb641^2bdfdf9d4bdeb641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/user/Documents/workspace/myoschina/myoschina/MOAppDelegate.m0000000000000000^3984"CompileC DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/MOAppDelegate.o myoschina/MOAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/Documents/workspace/myoschina    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-generated-files.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-own-target-headers.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-all-target-headers.hmap -iquote /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-project-headers.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/include "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/DerivedSources/i386 -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/DerivedSources -F/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator -include /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch -MMD -MT dependencies -MF /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/MOAppDelegate.d --serialize-diagnostics /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/MOAppDelegate.dia -c /Users/user/Documents/workspace/myoschina/myoschina/MOAppDelegate.m -o /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/MOAppDelegate.o36"8D527B8C-1916-428D-9B70-76B752522FC4-
+
+CCompileC DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/main.o /Users/user/Documents/workspace/myoschina/myoschina/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383667101.709802
+e383667101.867280
+r1
+xCompileC
+xDerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/main.o
+x/Users/user/Documents/workspace/myoschina/myoschina/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/user/Documents/workspace/myoschina/myoschina/main.m18ceb59d4bdeb641^bc05de9d4bdeb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/user/Documents/workspace/myoschina/myoschina/main.m0000000000000000^3930"CompileC DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/main.o myoschina/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/Documents/workspace/myoschina    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-generated-files.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-own-target-headers.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-all-target-headers.hmap -iquote /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-project-headers.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/include "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/DerivedSources/i386 -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/DerivedSources -F/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator -include /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch -MMD -MT dependencies -MF /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/main.dia -c /Users/user/Documents/workspace/myoschina/myoschina/main.m -o /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/main.o36"DF438BF5-201C-43F6-94E5-C3E99586180E-
+
+CCopyStringsFile /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/en.lproj/InfoPlist.strings myoschina/en.lproj/InfoPlist.strings
+s383667102.303486
+e383667102.306856
+r1
+xCopyStringsFile
+x/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/en.lproj/InfoPlist.strings
+xmyoschina/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy myoschina/en.lproj/InfoPlist.strings33c44d9e4bdeb641^0d8e4e9e4bdeb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/user/Documents/workspace/myoschina/myoschina/en.lproj/InfoPlist.strings0000000000000000^655"CopyStringsFile DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/en.lproj/InfoPlist.strings myoschina/en.lproj/InfoPlist.strings    cd /Users/user/Documents/workspace/myoschina    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/en.lproj -- myoschina/en.lproj/InfoPlist.strings36"B3DB629D-BD22-466E-92C9-A69EE51B46A1-
+
+CCpResource myoschina/Default-568h@2x.png DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default-568h@2x.png
+s383667102.303813
+e383667102.309667
+r1
+xCpResource
+xmyoschina/Default-568h@2x.png
+xDerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default-568h@2x.png56d34d9e4bdeb641^aa464f9e4bdeb641^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default-568h@2x.png000000000080d041^687"CpResource "myoschina/Default-568h@2x.png" "DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default-568h@2x.png"    cd /Users/user/Documents/workspace/myoschina    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/user/Documents/workspace/myoschina/myoschina/Default-568h@2x.png" /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app36"F3BB96C3-0387-4712-AC16-28C804290F30-
+
+CCpResource myoschina/Default.png DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default.png
+s383667102.303481
+e383667102.308254
+r1
+xCpResource
+xmyoschina/Default.png
+xDerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default.png00c44d9e4bdeb641^dde94e9e4bdeb641^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default.png000000000080d041^657"CpResource myoschina/Default.png DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default.png    cd /Users/user/Documents/workspace/myoschina    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/user/Documents/workspace/myoschina/myoschina/Default.png /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app36"8EA7AAAE-45D9-42CD-BA13-CE4FDDDBCB31-
+
+CCpResource myoschina/Default@2x.png DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default@2x.png
+s383667102.303490
+e383667102.306987
+r1
+xCpResource
+xmyoschina/Default@2x.png
+xDerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default@2x.png00c44d9e4bdeb641^92964e9e4bdeb641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default@2x.png000000000080d041^672"CpResource "myoschina/Default@2x.png" "DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Default@2x.png"    cd /Users/user/Documents/workspace/myoschina    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/user/Documents/workspace/myoschina/myoschina/Default@2x.png" /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app36"7A611DC2-8E74-4B7D-ABEB-EA904C001258-
+
+CGenerateDSYMFile /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app.dSYM /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina
+s383667102.243688
+e383667102.295471
+r1
+xGenerateDSYMFile
+x/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app.dSYM
+x/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Generate /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app.dSYM65723e9e4bdeb641^caa34b9e4bdeb641^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app.dSYM000000000080d041^778"GenerateDSYMFile DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app.dSYM DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina    cd /Users/user/Documents/workspace/myoschina    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina -o /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app.dSYM36"3768450E-EC8C-4016-B502-364B78F7EDAD-
+
+CLd /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina normal i386
+s383667101.881264
+e383667102.237333
+r1
+xLd
+x/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Link /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina21ade19d4bdeb641^dbc13c9e4bdeb641^---0#0#0#--1337"Ld DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina normal i386    cd /Users/user/Documents/workspace/myoschina    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -arch i386 -isysroot "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -L/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator -F/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator -filelist /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/Objects-normal/i386/myoschina.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/myoschina36"C0FEA1D0-614B-49D3-B1C8-C5B509EBCA0F-
+
+CProcessInfoPlistFile /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Info.plist myoschina/myoschina-Info.plist
+s383667101.240958
+e383667101.244639
+r1
+xProcessInfoPlistFile
+x/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Info.plist
+xmyoschina/myoschina-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process myoschina/myoschina-Info.plist22c43d9d4bdeb641^a9a03e9d4bdeb641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/user/Documents/workspace/myoschina/myoschina/myoschina-Info.plist0000000000000000^770"ProcessInfoPlistFile DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Info.plist myoschina/myoschina-Info.plist    cd /Users/user/Documents/workspace/myoschina    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility myoschina/myoschina-Info.plist -genpkginfo /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app/Info.plist36"C27E1351-50B9-4B9A-9597-A6A1CC452B48-
+
+CProcessPCH /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch.pth myoschina/myoschina-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383667101.254835
+e383667101.703025
+r1
+xProcessPCH
+x/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch.pth
+xmyoschina/myoschina-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile myoschina/myoschina-Prefix.pch47af429d4bdeb641^2ff9b39d4bdeb641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/user/Documents/workspace/myoschina/myoschina/myoschina-Prefix.pch0000000000000000^3820"ProcessPCH DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch.pth myoschina/myoschina-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/user/Documents/workspace/myoschina    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk" -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-generated-files.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-own-target-headers.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-all-target-headers.hmap -iquote /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/myoschina-project-headers.hmap -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/include "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" "-I/Applications/Xcode 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/DerivedSources/i386 -I/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/myoschina.build/Debug-iphonesimulator/myoschina.build/DerivedSources -F/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch.dia -c /Users/user/Documents/workspace/myoschina/myoschina/myoschina-Prefix.pch -o /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch.pth -MMD -MT dependencies -MF /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Intermediates/PrecompiledHeaders/myoschina-Prefix-atqtyhbflixfjiblbtitxjphmvkw/myoschina-Prefix.pch.d36"79626003-B57C-423F-B062-2C0B394AAABE-
+
+CProcessPCH /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Index/PrecompiledHeaders/myoschina-Prefix-aobhkzbbkzshdrcstchwzazlyhjt_ast/myoschina-Prefix.pch.pth myoschina/myoschina-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app
+s383667102.317350
+e383667102.414312
+r1
+xTouch
+x/Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Touch /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app6ff4519e4bdeb641^28106a9e4bdeb641^---0#0#0#--464"Touch DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app    cd /Users/user/Documents/workspace/myoschina    setenv PATH "/Applications/Xcode 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 2.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/user/Documents/workspace/myoschina/DerivedData/myoschina/Build/Products/Debug-iphonesimulator/myoschina.app36"4771464A-B07C-4DCD-AFF0-049D5C2264FB-
+
